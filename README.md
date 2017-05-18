@@ -14,7 +14,7 @@ The project was done using the following tools and techiques:
 * [k-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) ([sklearn.cluster.KMeans](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html))
 * [Silhouette values](https://en.wikipedia.org/wiki/Silhouette_(clustering)) to estimate the number of clusters ([sklearn.metrics.silhouette_score](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html))
 
-### Files
+## Files
 
 The code splitted into separate files to make debugging and testing easier.
 
@@ -23,7 +23,7 @@ The code splitted into separate files to make debugging and testing easier.
 [save_vectors.py](src/save_vectors.py) - convertx sentences to vectors and save result for further modelling.  
 [detect_hot.py](src/detect_hot.py) - printa out 'hot' tweets.
 
-### Some (dirty) exploration
+## Some (dirty) exploration
 
 There is some thought process recorded in the Jupyter Notebooks.
 
