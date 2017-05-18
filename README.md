@@ -19,9 +19,9 @@ The project was done using the following tools and techiques:
 The code splitted into separate files to make debugging and testing easier.
 
 [get_tweets.py](src/get_tweets.py) - downloads news tweets.  
-[create_hist_dataset.py](src/create_hist_dataset.py) - clean and save dataset.  
-[save_vectors.py](src/save_vectors.py) - convertx sentences to vectors and save result for further modelling.  
-[detect_hot.py](src/detect_hot.py) - printa out 'hot' tweets.
+[create_hist_dataset.py](src/create_hist_dataset.py) - cleans and saves dataset.  
+[save_vectors.py](src/save_vectors.py) - converts sentences to vectors and save result for further modelling.  
+[detect_hot.py](src/detect_hot.py) - prints out 'hot' tweets.
 
 ## Some (dirty) exploration
 
