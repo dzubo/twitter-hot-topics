@@ -1,12 +1,12 @@
 # Twitter Hot Topics Detection
 
-This is a small project to demonstrate the usage of Twitter API and NLP techiques.
+A small project to demonstrate the usage of Twitter API and NLP techniques.
 The idea is to download tweets from specified accounts (news companies),
 cluster tweets into topics, detect the hottest topic, and output the most relevant news tweet from that topic.  
 
 This is not production-ready code, more like a proof of concept.
 
-## Consepts
+## Concepts
 The project was done using the following tools and techiques:
 
 * [Twitter API](https://dev.twitter.com/overview/api) ([python-twitter](https://github.com/bear/python-twitter) implementation)
@@ -16,7 +16,7 @@ The project was done using the following tools and techiques:
 
 ## Files
 
-The code splitted into separate files to make debugging and testing easier.
+The code split into separate files to make debugging and testing easier.
 
 [get_tweets.py](src/get_tweets.py) - downloads news tweets.  
 [create_hist_dataset.py](src/create_hist_dataset.py) - cleans and saves dataset.  
